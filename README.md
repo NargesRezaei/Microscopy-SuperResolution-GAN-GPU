@@ -179,6 +179,7 @@ sr_gan_poster.pdf
 
 This project uses TensorFlow, Keras, OpenCV, scikit-image, NumPy, and CUDA-enabled GPU computation.
 
+---
 
 ## 📚 References
 
