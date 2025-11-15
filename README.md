@@ -67,9 +67,9 @@ Training was performed on:
 
 - **NVIDIA RTX 3060 (12 GB)**  
 - TensorFlow 2.x  
-- `tf.distribute.MirroredStrategy` for multi-GPU compatibility  
-
-```python
+- tf.distribute.MirroredStrategy` for multi-GPU compatibility
+- 
+python
 print("Num GPUs Available:", len(tf.config.list_physical_devices("GPU")))
 strategy = tf.distribute.MirroredStrategy()
 ---
