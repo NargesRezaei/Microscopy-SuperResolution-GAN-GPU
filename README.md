@@ -172,19 +172,8 @@ print(scores)   # {'psnr':..., 'mse':..., 'ssim':...}
 A Farsi poster presentation of this work is included:
 
 ```text
-Narges-Poster.pdf
+sr_gan_Poster.pdf
 ```
-
----
-
-## 📚 Citation
-
-```text
-Rezaei, N., et al.
-"Microscopy Image Super-Resolution using SRGAN."
-Poster Presentation, Iranian Optics & Photonics Conference (2024).
-```
-
 ---
 
 ## 💡 Acknowledgements
