@@ -72,6 +72,7 @@ Training was performed on:
 ```python
 print("Num GPUs Available:", len(tf.config.list_physical_devices("GPU")))
 strategy = tf.distribute.MirroredStrategy()
+```
 ---
 
 ## 🛠️ Preprocessing Pipeline
