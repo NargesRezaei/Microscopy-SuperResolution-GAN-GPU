@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+data/
+checkpoints/
+*.h5
+*.ckpt
+*.npy
+*.npz
+.ipynb_checkpoints/
