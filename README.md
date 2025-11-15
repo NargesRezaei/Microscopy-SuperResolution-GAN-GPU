@@ -68,7 +68,6 @@ Training was performed on:
 - **NVIDIA RTX 3060 (12 GB)**  
 - TensorFlow 2.x  
 - `tf.distribute.MirroredStrategy` for multi-GPU compatibility
-- 
 ```python
 print("Num GPUs Available:", len(tf.config.list_physical_devices("GPU")))
 strategy = tf.distribute.MirroredStrategy()
@@ -119,13 +118,18 @@ microscopy-super-resolution-tensorflow/
 ## 🚀 Training Instructions
 
 ### Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ### Run preprocessing (patch extraction + augmentation):
+```bash
 python -m src.preprocess_patches
-
+```
 ### Train SRGAN:
+```bash
 python -m src.train_sr
+```
 
 Trained generator models are saved in:
 checkpoints/generator_epoch_X.h5
