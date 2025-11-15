@@ -39,6 +39,13 @@ A real microscopy example (32×32 → 128×128):
 The SRGAN successfully reconstructs edge continuity, fine texture, and structural details from heavily downsampled inputs.
 
 ---
+## 📊 Quantitative Results
+
+| Metric | Value |
+|--------|-------|
+| **PSNR** | 26 dB |
+| **SSIM** | 0.85 |
+---
 
 ## ⚡ GPU Acceleration
 
