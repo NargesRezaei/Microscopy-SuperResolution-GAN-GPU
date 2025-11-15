@@ -19,6 +19,7 @@ The full workflow includes:
 This work was partially presented in a conference poster (included below).
 
 ---
+
 ## 🐝 Why Fly Wing Images?
 
 Fly wings were selected as the microscopy target because they naturally contain both 
