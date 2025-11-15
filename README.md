@@ -169,8 +169,7 @@ print(scores)   # {'psnr':..., 'mse':..., 'ssim':...}
 
 ## 📝 Conference Poster (Farsi)
 
-A Farsi poster presentation of this work is included:
-
+A Farsi poster presentation of this work is included (Poster Presentation, Iranian Optics & Photonics Conference (2024)):
 ```text
 sr_gan_poster.pdf
 ```
